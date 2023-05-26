@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/dataStructures.css">
+    <title>Algo DS Visualizer | Data Structures</title>
+</head>
+
+<body
+    onload="alert('Not fully functional yet, further improvements include addition of more data structures like BST, Segment Tree and Heaps.')">
+    <div id="stack">
+        <nav style="background-color: rgb(148, 212, 140);color: black;font-weight: bold;width: 100vw;">
+            <h1>Stack</h1>
+        </nav>
+        <div class="listdiv">
+            <div class="list" id="list"></div>
+            <div class="btn-div">
+                <input id="addvalstack" value="50">
+                <button type="button" class="btn btn-outline-success btn-info newArray" onclick="pushh()">PUSH</button>
+                <button type="button" class="btn btn-outline-success btn-info newArray"
+                    style="background-image: linear-gradient(144deg,#d6fc00, #ff0000 50%,#eb6a00);"
+                    onclick="popp()">POP</button>
+            </div>
+        </div>
+        <img src="../img/pp.png" alt="" id="headpic">
+    </div>
+    <div id="queue-div">
+        <nav style="background-color: rgb(148, 212, 140);color: black;font-weight: bold;width: 100vw;">
+            <h1>Queue</h1>
+        </nav>
+        <div class="listdiv">
+            <img src="./img/queue1-removebg-preview.png" class="arr" id="qback">
+            <img src="./img/queue2-removebg-preview.png" class="arr" id="qfront">
+            <div id="queue" class="list"></div>
+            <div class="btn-div">
+                <input id="addvalqueue" value="50">
+                <button type="button" class="btn btn-outline-success btn-info newArray"
+                    onclick="enqueue()">Enqueue</button>
+                <button type="button" class="btn btn-outline-success btn-info newArray"
+                    style="background-image: linear-gradient(144deg,#d6fc00, #ff0000 50%,#eb6a00);"
+                    onclick="dequeue()">Dequeue</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/dataStructures.js"></script>
+    <a id="back" href="index.html"><button>Go Back</button></a>
+</body>
+
+</html>
