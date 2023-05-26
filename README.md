@@ -1,6 +1,6 @@
 # Algo DS Visualizer
 
-This websapp is hosted at [Link](https://ritam727.github.io/AlgoDSVisualizer/)
+This websapp is hosted at [Link](https://utk202.github.io/)
 
 This is a webapp which helps visualize various algorithms such as sorting algorithms, graphing algorithms and various Data Structures.
 
